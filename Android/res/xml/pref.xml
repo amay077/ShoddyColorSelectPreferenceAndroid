@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference
+		android:key="edittext_key"
+		android:title="EditTitle"
+		android:summary="Summary1"
+		android:dialogTitle="DialogTitle1" />
+	
+	<com.amay077.listdialogtest.ColorSelectPreference
+	    android:key="color_key"
+	    android:title="Your Color"/>
+	    
+</PreferenceScreen>
+	
